@@ -1,95 +1,114 @@
-body {
-    background: url(assets/wpp.gif);
-    background-color: rgb(150, 164, 144);
-    color: #ffffff;
-    text-align: center;
-    font-size: 17px;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
 
-.navbar {
-    background-color: rgb(0, 0, 0);
-    overflow: hidden;
-    text-align: center;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio sobre livros de romance</title>
+</head>
 
-.navbar a {
-    display: inline-block;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    padding: 14px 20px;
-}
+<body>
+    <header class="container text-center">
+        <p class="lead">Eu sou a Marcela</p>
+        <h1>Este site é sobre o tema Agrinho:do campo à cidade, colhendo oportunidades </h1>
+        <p>Esse tema destaca a interconexão entre o campo e a cidade, enfatizando a importância da integração e do desenvolvimento mútuo entre áreas 
+        urbanas e rurais.O programa Agrinho, promovido pelo Sistema FAEP/SENAR-PR, incentiva ideias e projetos que promovam soluções sustentáveis para o 
+        agronegócio, combinando a criatividade dos estudantes e professores com conhecimentos acadêmicos e recursos tecnológicos. 
+</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Interconexão Campo e Cidade</h2>
+        <div class="row">
+            <!-- Livro 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagens/813Xz4-o-gL._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="Imagem do livro">
+                    <div class="card-body">
+                        <h5 class="card-title">Fazendo meu filme 1 a estreia de Fani</h5>
+                        <p class="card-text"> O tema "Agrinho: do campo à cidade, colhendo oportunidades" representa mais do que uma simples frase; 
+                        é um convite para explorar a interconexão entre áreas urbanas e rurais, reconhecendo o potencial de colaboração e crescimento mútuo. 
 
-.navbar a:hover {
-    background-color: #ffffff;
-    color: rgb(255, 255, 255);
-}
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o livro</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Livro 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagens/81PYZBeaNfL._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="Imagem do livro">
+                    <div class="card-body">
+                        <h5 class="card-title">Fazendo meu filme 2 Fani na terra da rainha</h5>
+                        <p class="card-text"> Fani, agora em sua jornada de intercâmbio na Inglaterra, vive intensamente a experiência, enfrentando alegria, dor, 
+                            saudade e crescimento pessoal. Longe do amor que ficou no Brasil, ela conhece novas pessoas, incluindo um amigo que se torna um 
+                            confidente, e aprofunda sua compreensão de si mesma e do mundo. O livro também explora os sentimentos e desafios de estar distante, 
+                            tanto física quanto emocionalmente, do seu círculo social e da sua rotina anterior. 
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o livro</button>
+                    </div>
+                </div>
+            </div>
 
-header {
-    padding: 20px;
-    text-align: center;
-    font-size: 32px;
-}
+            <!-- Livro 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagens/9115M2AfoUL.jpg" class="card-img-top" alt="Imagem do livro">
+                    <div class="card-body">
+                        <h5 class="card-title">Fazendo meu filme 3 o roteiro inesperado de Fani
+                        </h5>
+                        <p class="card-text">Fani volta do intercâmbio e enfrenta a adaptação à vida em casa, com novas expectativas sobre o vestibular e a relação com Leo. 
+                            Ela precisa escolher qual faculdade seguir, lidar com conflitos familiares e navegar por um turbilhão de emoções, mostrando sua maturidade e fazendo 
+                            escolhas importantes.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o livro</button>
+                    </div>
+                </div>
+            </div>
 
-@media screen and (max-width: 600px) {
-    .navbar a {
-        display: block;
-        padding: 10px;
-    }
+              <!-- Livro 4 -->
+              <div class="col-md-4">
+                <div class="card">
+                    <img src="imagens/91jor6JccSL._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="Imagem do livro">
+                    <div class="card-body">
+                        <h5 class="card-title">Fazendo meu filme 4 Fani em busca do final feliz
+                        </h5>
+                        <p class="card-text">Fani e Leo, após uma separação, precisam seguir caminhos diferentes. No entanto, o passado e as promessas de 
+                            amor continuam a afetar seus corações. Um encontro pode ser a chave para eles entenderem o que aconteceu e se libertarem, 
+                            ou pode devastar ainda mais seus destinos. 
 
-    header {
-        font-size: 24px;
-    }
-}
-
-@media screen and (min-width: 601px) and (max-width: 1024px) {
-    .navbar a {
-        padding: 12px 16px;
-    }
-
-    header {
-        font-size: 28px;
-    }
-}
-
-.direitos,
-.minha-foto {
-    border-radius: 50%;
-    text-align: center;
-    height: 60px;
-    font-size: small;
-    margin-top: 50px;
-}
-
-.errad_img {
-    height: 500px;
-    width: auto;
-    margin-left: 100px;
-
-}
-
-.text_errad {
-    margin-left: 100px;
-    font-size: 19px;
-}
-
-.oportu_titulo {
-    margin-right: 800px;
-}
-
-.opor_img {
-    width: 700px;
-    margin-left: 40px;
-}
-
-.tabela_econ {
-    margin-top: 400px;
-}
-
-.tabela {
-    margin-top: 80px;
-}
-
-.cadeiasdevalor img {
-    width: 900px;
-}
-.opor_img
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o livro</button>
+                    </div>
+                </div>
+            </div>
+             
+            <!-- Livro 5 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagens/91Qgu5xqk7L.jpg" class="card-img-top" alt="Imagem do livro">
+                    <div class="card-body">
+                        <h5 class="card-title">Fazendo meu filme lado B
+                        </h5>
+                        <p class="card-text">O livro conta a perspectiva do Leo sobre os eventos do primeiro livro da série, "Fazendo Meu Filme a estreia de Fani". 
+                            A trama explora o ponto de vista do Leo, revelando seus pensamentos, motivações e as razões por trás de suas ações, especialmente 
+                            em relação à Fani e Vanessa em particular.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o livro</button>
+                    </div>
+                </div>
+            </div>
